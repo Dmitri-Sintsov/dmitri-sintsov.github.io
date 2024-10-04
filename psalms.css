@@ -1,3 +1,32 @@
+@media only screen  and (max-device-width: 819px) {
+
+    input[type=checkbox] {
+        margin: 0 1.5rem 0rem 1.5rem;
+    }
+
+    select,
+    input[type=checkbox] {
+      transform: scale(3);
+    }
+
+    .select-psalmset {
+        position: relative;
+        min-height: 4rem;
+    }
+
+    .select-psalmset select {
+        position: absolute;
+        left: 14rem;
+        top: 1.5rem;
+    }
+
+    .mainmenu,
+    .controls {
+        font-size: 3rem;
+    }
+
+}
+
 .interlinear {
     margin: 0.5rem 0 0.5rem 0;
 }

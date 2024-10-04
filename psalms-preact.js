@@ -87,30 +87,32 @@ class Psalms extends Component {
 
     render(props, state) {
         return html`
-            <div>
-                <input id="show_description" type="checkbox" checked="${showDescription}" onClick="${this.toggleShowDescription}" />
-                <label for="show_description">Описание</label>
-            </div>
-            <div>
-                <input id="show_transliteration" type="checkbox" checked="${showTransliteration}" onClick="${this.toggleShowTransliteration}" />
-                <label for="show_transliteration">Транслитерация</label>
-            </div>
-            <div>
-                <input id="show_translation" type="checkbox" checked="${showTranslation}" onClick="${this.toggleShowTranslation}" />
-                <label for="show_translation">Перевод</label>
-            </div>
-            <div>
-                <input id="show_interlinear" type="checkbox" checked="${showInterlinear}" onClick="${this.toggleShowInterlinear}" />
-                <label for="show_interlinear">Подстрочник</label>
-            </div>
-            <div>
-                <select value="${selectedPsalmSet}" onChange="${this.onChangeSelectedPsalmSet}">
-                    ${Array.from(model.psalmSets.keys()).map(
-                        function(psalmSet, idx) {
-                            return html`<option value="${psalmSet}">${psalmSet}</option>`;
-                        })
-                    }
-                </select>
+            <div class="controls">
+                <div>
+                    <input id="show_description" type="checkbox" checked="${showDescription}" onClick="${this.toggleShowDescription}" />
+                    <label for="show_description">Описание</label>
+                </div>
+                <div>
+                    <input id="show_transliteration" type="checkbox" checked="${showTransliteration}" onClick="${this.toggleShowTransliteration}" />
+                    <label for="show_transliteration">Транслитерация</label>
+                </div>
+                <div>
+                    <input id="show_translation" type="checkbox" checked="${showTranslation}" onClick="${this.toggleShowTranslation}" />
+                    <label for="show_translation">Перевод</label>
+                </div>
+                <div>
+                    <input id="show_interlinear" type="checkbox" checked="${showInterlinear}" onClick="${this.toggleShowInterlinear}" />
+                    <label for="show_interlinear">Подстрочник</label>
+                </div>
+                <div class="select-psalmset">
+                    <select value="${selectedPsalmSet}" onChange="${this.onChangeSelectedPsalmSet}">
+                        ${Array.from(model.psalmSets.keys()).map(
+                            function(psalmSet, idx) {
+                                return html`<option value="${psalmSet}">${psalmSet}</option>`;
+                            })
+                        }
+                    </select>
+                </div>
             </div>
             ${model.psalms.map(
                 function(psalm, idx) {
