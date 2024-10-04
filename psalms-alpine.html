@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script type=module src="psalms-alpine.js"></script>
+    <link href="psalms.css" rel="stylesheet">
+</head>
+<body>
+    <div id="psalm_viewer" x-data="psalmsData">
+        <div>
+            <input id="show_description" type="checkbox" x-model="showDescription">
+            <label for="show_description">Описание</label>
+        </div>
+        <div>
+            <input id="show_transliteration" type="checkbox" x-model="showTransliteration">
+            <label for="show_transliteration">Транслитерация</label>
+        </div>
+        <div>
+            <input id="show_translation" type="checkbox" x-model="showTranslation">
+            <label for="show_translation">Перевод</label>
+        </div>
+        <div>
+            <input id="show_interlinear" type="checkbox" x-model="showInterlinear">
+            <label for="show_interlinear">Подстрочник</label>
+        </div>
+        <div>
+            <select x-model="selectedPsalmSet">
+                <template x-for="psalmSet in Array.from(psalmSets.keys())">
+                    <option :value="psalmSet" x-text="psalmSet"></option>
+                </template>
+            </select>
+        </div>
+        <template x-for="psalm in psalms">
+            <div x-show="psalmSets.get(selectedPsalmSet)(psalm.psalmNumber)">
+                <h3 x-text="'Псалом ' + psalm.psalmNumber"></h3>
+                <h4 x-show="showDescription" x-text="psalm.psalmDescription"></h4>
+                <div x-show="showTransliteration" class="transliteration">
+                    <template x-for="(transliteration, idx) in psalm.transliteration">
+                        <div :class="{'interlinear': showInterlinear}">
+                            <div x-text="(idx + 1) + '. ' + transliteration"></div>
+                            <div x-show="showInterlinear">
+                                <div x-text="(idx + 1) + '. ' + psalm.translation[idx]"></div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+                <div x-show="showTranslation" class="translation">
+                    <template x-for="(translation, idx) in psalm.translation">
+                        <div x-text="(idx + 1) + '. ' + translation"></div>
+                    </template>
+                </div>
+            </div>
+        </template>
+    </div>
+</body>
+</html>
