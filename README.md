@@ -1,1 +1,1 @@
-# dmitri-sintsov.github.io
+alpine.js / standalone preact+htm sample apps
