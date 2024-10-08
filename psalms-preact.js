@@ -31,12 +31,12 @@ function Psalm(props) {
                         ${psalm.transliteration.map(
                             function(transliteration, idx) {
                                 return html`
-                                    <div class="${showInterlinear.value && 'interlinear'}">
-                                        <div>${idx + 1} ${transliteration}</div>
+                                    <div class="${showInterlinear.value && 'interlinear-block'}">
+                                        <div>${idx + 1}. ${transliteration}</div>
                                         ${
                                             showInterlinear.value &&
                                             html`
-                                                <div>${idx + 1}. ${psalm.translation[idx]}</div>
+                                                <div class="interlinear">${idx + 1}. ${psalm.translation[idx]}</div>
                                             `
                                         }
                                     </div>
