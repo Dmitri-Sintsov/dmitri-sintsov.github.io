@@ -1,6 +1,7 @@
 // npx live-server
 // https://gomakethings.com/a-mostly-vanilla-js-way-to-use-preact/
 // import { html, render, signal, effect } from 'https://cdn.jsdelivr.net/npm/preact-htm-signals-standalone/dist/standalone.js';
+// import { html, Component, render, signal } from https://npm.reversehttp.com/@preact/signals-core,@preact/signals,htm/preact,preact/hooks,preact
 
 import { html, Component, render, signal } from './preact/standalone.js';
 import { getModel } from './getmodel.js';
