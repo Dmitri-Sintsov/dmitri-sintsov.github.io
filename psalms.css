@@ -21,10 +21,19 @@
     }
 
     .mainmenu,
-    .controls {
+    .controls,
+    .psalm-links {
         font-size: 3rem;
     }
 
+}
+
+.psalm-links {
+    overflow: auto;
+}
+
+.psalm-links > a {
+    padding: 0 0.5rem 0 0.5rem;
 }
 
 .interlinear-block {

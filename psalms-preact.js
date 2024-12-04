@@ -15,11 +15,17 @@ let showTransliteration = signal(model.showTransliteration);
 let showTranslation = signal(model.showTranslation);
 let showInterlinear = signal(model.showInterlinear);
 
+function PsalmLink(props) {
+    return html`
+        <a class="psalm-link" href="#psalm-${props['psalm-number']}">${props['psalm-number']}</a>
+    `;
+}
+
 function Psalm(props) {
     let psalm = model.psalms[Number(props['psalm-number']) - 1];
     return html`
         <div>
-            <h3>Псалом ${psalm.psalmNumber}</h3>
+            <h3 id="psalm-${psalm.psalmNumber}">Псалом ${psalm.psalmNumber}</h3>
             ${
                 showDescription.value &&
                 html`<h4>${psalm.psalmDescription}</h4>`
@@ -29,7 +35,7 @@ function Psalm(props) {
                 html`
                     <div class="transliteration">
                         ${psalm.transliteration.map(
-                            function(transliteration, idx) {
+                            (transliteration, idx) => {
                                 return html`
                                     <div class="${showInterlinear.value && 'interlinear-block'}">
                                         <div>${idx + 1}. ${transliteration}</div>
@@ -51,7 +57,7 @@ function Psalm(props) {
                 html`
                     <div class="translation">
                         ${psalm.translation.map(
-                            function(translation, idx) {
+                            (translation, idx) => {
                                 return html`
                                     <div>${idx + 1}. ${translation}</div>
                                 `;
@@ -87,6 +93,9 @@ class Psalms extends Component {
     }
 
     render(props, state) {
+        let selectedPsalms = model.psalms.filter((psalm) => {
+            return model.psalmSets.get(selectedPsalmSet.value)(psalm.psalmNumber)
+        });
         return html`
             <div class="controls">
                 <div>
@@ -108,23 +117,27 @@ class Psalms extends Component {
                 <div class="select-psalmset">
                     <select value="${selectedPsalmSet}" onChange="${this.onChangeSelectedPsalmSet}">
                         ${Array.from(model.psalmSets.keys()).map(
-                            function(psalmSet, idx) {
+                            (psalmSet, idx) => {
                                 return html`<option value="${psalmSet}">${psalmSet}</option>`;
                             })
                         }
                     </select>
                 </div>
             </div>
-            ${model.psalms.map(
-                function(psalm, idx) {
-                    return html`
-                    ${
-                        model.psalmSets.get(selectedPsalmSet.value)(psalm.psalmNumber) &&
-                        html`<${Psalm} psalm-number="${psalm.psalmNumber}" />`
-                    }
-                    `
-                })
-            }
+            <div class="psalm-links">
+                ${selectedPsalms.map(
+                    (psalm, idx) => {
+                        return html`<${PsalmLink} psalm-number="${psalm.psalmNumber}" />`;
+                    })
+                }
+            </div>
+            <div class="psalm-texts">
+                ${selectedPsalms.map(
+                    (psalm, idx) => {
+                        return html`<${Psalm} psalm-number="${psalm.psalmNumber}" />`;
+                    })
+                }
+            </div>
         `;
     }
 
