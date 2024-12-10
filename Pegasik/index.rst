@@ -1,6 +1,7 @@
 .. toctree::
-    part_01
-    part_02
-    part_03
-    part_04
-    part_05
+
+   part_01
+   part_02
+   part_03
+   part_04
+   part_05
