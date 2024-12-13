@@ -60,7 +60,7 @@
          :width: 300
    * - .. image:: photos/horizontal/IMG20240304132240.jpg
          :width: 300
-   * - .. image:: photos/horizontal/IMG20240305114324.jpg
+     - .. image:: photos/horizontal/IMG20240305114324.jpg
          :width: 300
    * - .. image:: photos/horizontal/IMG20240429220333.jpg
          :width: 300
