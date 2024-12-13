@@ -114,11 +114,11 @@
          :width: 300
    * - .. image:: photos/vertical/20190414_120214.jpg
          :width: 300
-     - .. image:: photos/vertical/20220803_012513.jpg
+     - .. image:: photos/vertical/IMG-20230113-WA0001.jpg
          :width: 300
    * - .. image:: photos/vertical/image.jpg
          :width: 300
-     - .. image:: photos/vertical/IMG-20230113-WA0001.jpg
+     - .. image:: photos/vertical/20220803_012513.jpg
          :width: 300
    * - .. image:: photos/vertical/IMG-20230311-WA0007.jpeg
          :width: 300
