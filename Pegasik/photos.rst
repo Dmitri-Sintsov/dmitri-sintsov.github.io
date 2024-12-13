@@ -22,9 +22,9 @@
          :width: 300
      - .. image:: photos/horizontal/P_20180324_124651.jpg
          :width: 300
-   * - .. image:: photos/horizontal/20181219_010148.jpg
+   * - .. image:: photos/horizontal/20161216_091639_36130385354_o.jpg
          :width: 300
-     - .. image:: photos/horizontal/20161216_091639_36130385354_o.jpg
+     - .. image:: photos/horizontal/20181219_010148.jpg
          :width: 300
    * - .. image:: photos/horizontal/20171019_224837_38957692581_o.jpg
          :width: 300
