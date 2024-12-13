@@ -71,62 +71,68 @@
      - .. image:: photos/horizontal/IMG20240831120833.jpg
          :width: 300
 
+
 .. list-table:: Фотографии Пегасика
    :widths: 50 50
    :header-rows: 0
 
-
-   * - .. image:: photos/
+   * - .. image:: photos/vertical/p_20161026_180158_37129154195_o.jpg
          :width: 300
-     - .. image:: photos/
+     - .. image:: photos/vertical/p_20161115_100439_36315835583_o.jpg
          :width: 300
-   * - .. image:: photos/
+   * - .. image:: photos/vertical/p_20170103_161021_36293184614_o.jpg
          :width: 300
-     - .. image:: photos/
+     - .. image:: photos/vertical/p_20170201_202935_36293184144_o.jpg
          :width: 300
-   * - .. image:: photos/
+   * - .. image:: photos/vertical/p_20170205_125730_36293241874_o.jpg
          :width: 300
-     - .. image:: photos/
+     - .. image:: photos/vertical/p_20170512_090349_37172995635_o.jpg
          :width: 300
-   * - .. image:: photos/
+   * - .. image:: photos/vertical/p_20170829_092506_37095376412_o.jpg
          :width: 300
-     - .. image:: photos/
+     - .. image:: photos/vertical/p_20171208_234201_38241951674_o.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/P_20180210_114316.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/P_20180616_205142.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/P_20180917_104441.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/P_20180921_191534.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/20161219_223105_36794689942_o.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/20170131_203616_36966156905_o.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/20171209_001856_38921587862_o.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/20180518_220940.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/20180602_124149.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/20180807_134748.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/20190414_120214.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/20220803_012513.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/image.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/IMG-20230113-WA0001.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/IMG-20230311-WA0007.jpeg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/IMG-20230311-WA0009.jpeg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/IMG20240116131500.jpg
          :width: 300
-   * - .. image:: photos/
+     - .. image:: photos/vertical/IMG20240214134140.jpg
          :width: 300
-     - .. image:: photos/
+   * - .. image:: photos/vertical/IMG20240304132240.jpg
+         :width: 300
+     - .. image:: photos/vertical/IMG20240523155403.jpg
+         :width: 300
+   * - .. image:: photos/vertical/IMG20240523155550.jpg
+         :width: 300
+     - .. image:: photos/vertical/IMG20240907234439.jpg
          :width: 300
