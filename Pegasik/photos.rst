@@ -22,7 +22,7 @@
          :width: 300
      - .. image:: photos/horizontal/P_20180324_124651.jpg
          :width: 300
-   * - .. image:: photos/horizontal/P_20180826_200537.jpg
+   * - .. image:: photos/horizontal/20190216_111121.jpg
          :width: 300
      - .. image:: photos/horizontal/20161216_091639_36130385354_o.jpg
          :width: 300
@@ -42,7 +42,7 @@
          :width: 300
      - .. image:: photos/horizontal/20190127_233407.jpg
          :width: 300
-   * - .. image:: photos/horizontal/20190216_111121.jpg
+   * - .. image:: photos/horizontal/P_20180826_200537.jpg
          :width: 300
      - .. image:: photos/horizontal/20211125_001823.jpg
          :width: 300
