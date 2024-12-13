@@ -58,21 +58,18 @@
          :width: 300
      - .. image:: photos/horizontal/IMG20240225185819.jpg
          :width: 300
-   * - .. image:: photos/horizontal/IMG20240304132240.jpg
+   * - .. image:: photos/horizontal/IMG20240305114324.jpg
          :width: 300
-     - .. image:: photos/horizontal/IMG20240305114324.jpg
+     - .. image:: photos/horizontal/IMG20240429220333.jpg
          :width: 300
-   * - .. image:: photos/horizontal/IMG20240429220333.jpg
+   * - .. image:: photos/horizontal/IMG20240504171224.jpg
          :width: 300
-     - .. image:: photos/horizontal/IMG20240504171224.jpg
+     - .. image:: photos/horizontal/IMG20240524150910.jpg
          :width: 300
-   * - .. image:: photos/horizontal/IMG20240524150910.jpg
+   * - .. image:: photos/horizontal/IMG20240609113354.jpg
          :width: 300
-     - .. image:: photos/horizontal/IMG20240609113354.jpg
+     - .. image:: photos/horizontal/IMG20240831120833.jpg
          :width: 300
-   * - .. image:: photos/horizontal/IMG20240831120833.jpg
-         :width: 300
-     - ..
 
 .. list-table:: Фотографии Пегасика
    :widths: 50 50
