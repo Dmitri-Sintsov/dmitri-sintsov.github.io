@@ -80,7 +80,7 @@
          :width: 300
      - .. image:: photos/vertical/p_20161115_100439_36315835583_o.jpg
          :width: 300
-   * - .. image:: photos/vertical/p_20170103_161021_36293184614_o.jpg
+   * - .. image:: photos/vertical/p_20161115_100452_36293005994_o.jpg
          :width: 300
      - .. image:: photos/vertical/p_20170201_202935_36293184144_o.jpg
          :width: 300
