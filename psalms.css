@@ -1,3 +1,8 @@
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
 @media only screen  and (max-device-width: 819px) {
 
     input[type=checkbox] {
@@ -50,4 +55,32 @@
 
 .translation {
     margin: 0.5rem 0 0.5rem 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #080808;
+        color: #e0e0e0;
+    }
+
+    .interlinear {
+        color: #a0a0a0;
+    }
+
+    .psalm-links > a, 
+    a {
+        color: #8ab4f8;
+    }
+    
+    .psalm-links > a:visited, 
+    a:visited {
+        color: #c58af9;
+    }
+
+    select, 
+    input[type=checkbox] {
+        background-color: #1e1e1e;
+        color: #e0e0e0;
+        border: 1px solid #444444;
+    }
 }
